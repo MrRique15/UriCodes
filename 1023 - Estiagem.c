@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+//Still Working//
 int main(){
     int housesNum = 1, cityNum = 1;
     int i, j;
