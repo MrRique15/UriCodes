@@ -3,6 +3,8 @@
 
 // var content = lines.map(String);
 // content.pop();
+
+//Still working, runtime error//
 var content = ["5 5000000", "3 123456", "9 23454324543423", "9 99999999991999999", "7 777", "0 0"];
 
 var vect = [];
