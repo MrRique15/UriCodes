@@ -16,6 +16,7 @@ int coletaGols(){
 
 int menuColect(){
     int x = 0;
+    
     do{
         printf("Novo grenal (1-sim 2-nao)\n");
         scanf("%d", &x);

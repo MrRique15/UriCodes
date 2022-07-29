@@ -20,5 +20,6 @@ int main(){
     nota1 = coletaNota();
     nota2 = coletaNota();
     printf("media = %.2f\n", (nota1 + nota2)/2);
+    
     return 0;
 }

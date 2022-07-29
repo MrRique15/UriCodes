@@ -3,6 +3,7 @@
 
 float coletaNota(){
     float x = -1;
+    
     do{
         scanf("%f", &x);
         setbuf(stdin,NULL);
@@ -34,6 +35,6 @@ int main(){
         printf("media = %.2f\n", (nota1 + nota2)/2);
         controller = menuColect();
     }while(controller == 1);
-    
+
     return 0;
 }
