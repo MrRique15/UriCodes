@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-float coletaGols(){
-    float x = -1;
+int coletaGols(){
+    int x = -1;
     do{
-        scanf("%f", &x);
+        scanf("%d", &x);
         setbuf(stdin,NULL);
         if(x < 0 || x > 10){
             printf("nota invalida\n");
@@ -22,6 +22,20 @@ int menuColect(){
     }while(x < 1 || x > 2);
     
     return x;
+}
+
+void showResult(int grenaisCounter, int vitoriaInter, int vitoriaGremio, int contadorEmpates){
+    printf("%d grenais\n", grenaisCounter);
+    printf("Inter:%d\n", vitoriaInter);
+    printf("Gremio:%d\n", vitoriaGremio);
+    printf("Empates:%d\n", contadorEmpates);
+    if(vitoriaInter > vitoriaGremio){
+        printf("Inter venceu mais\n");
+    }else if(vitoriaInter < vitoriaGremio){
+        printf("Gremio venceu mais\n");
+    }else{
+        printf("Nao houve vencedor\n");
+    }
 }
 
 int main(){
@@ -43,17 +57,7 @@ int main(){
         controller = menuColect();
     }while(controller == 1);
     
-    printf("%d grenais\n", grenaisCounter);
-    printf("Inter:%d\n", vitoriaInter);
-    printf("Gremio:%d\n", vitoriaGremio);
-    printf("Empates:%d\n", contadorEmpates);
-    if(vitoriaInter > vitoriaGremio){
-        printf("Inter venceu mais\n");
-    }else if(vitoriaInter < vitoriaGremio){
-        printf("Gremio venceu mais\n");
-    }else{
-        printf("Nao houve vencedor\n");
-    }
+    showResult(grenaisCounter, vitoriaInter, vitoriaGremio, contadorEmpates);
 
     return 0;
 }
