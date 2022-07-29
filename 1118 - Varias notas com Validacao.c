@@ -10,6 +10,7 @@ float coletaNota(){
             printf("nota invalida\n");
         }
     }while(x < 0 || x > 10);
+
     return x; 
 }
 
@@ -19,6 +20,7 @@ int menuColect(){
         printf("novo calculo (1-sim 2-nao)\n");
         scanf("%d", &x);
     }while(x < 1 || x > 2);
+    
     return x;
 }
 
