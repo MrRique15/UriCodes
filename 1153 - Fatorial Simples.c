@@ -13,5 +13,6 @@ int main(){
     int number;
     scanf("%d", &number);
     printf("%d\n", fatorial(number));
+    
     return 0;
 }
