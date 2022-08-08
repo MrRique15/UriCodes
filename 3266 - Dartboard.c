@@ -29,6 +29,7 @@ int main(){
     for (int i = 0; i < 6; ++i){
         expect += (prob(radii[i], radii[i + 1]) * expPts[i]);
     }
+    
     printf("%.10g\n", expect);
 
     return 0;
