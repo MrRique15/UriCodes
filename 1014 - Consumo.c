@@ -8,6 +8,5 @@ int main(){
 
     consumo = km/lt;
     printf("%.3f km/l\n", consumo);
-    
     return 0;
 }
