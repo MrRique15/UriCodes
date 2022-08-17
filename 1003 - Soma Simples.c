@@ -8,5 +8,6 @@ int main(){
 
     SOMA = A+B;
     printf("SOMA = %d\n", SOMA);
+    
     return 0;
 }
