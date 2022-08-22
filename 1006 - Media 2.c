@@ -12,6 +12,5 @@ int main(){
     MEDIA = ((A*p1)+(B*p2)+(C*p3))/(p1+p2+p3);
 
     printf("MEDIA = %.1lf\n", MEDIA);
-    
     return 0;
 }
