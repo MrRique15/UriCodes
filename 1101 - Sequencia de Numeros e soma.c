@@ -17,6 +17,5 @@ int main(){
         printf("Sum=%d\n", sum);
         scanf("%d %d", &start, &end);
     }
-    
     return 0;
 }
