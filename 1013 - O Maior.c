@@ -12,6 +12,5 @@ int main(){
     } else if((c>a)&&(c>b)){
         printf("%d eh o maior\n", c);
     }
-    
     return 0;
 }

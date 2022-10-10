@@ -8,6 +8,7 @@ int main(){
     int moradoresTotal = 0;
     float consumoTotal = 0;
     scanf("%d",&housesNum);
+    //Try to solve timelimit problem
     while (housesNum > 0){
         moradores = 0;
         moradoresTotal = 0;

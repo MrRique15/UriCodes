@@ -9,5 +9,6 @@ int main(){
 
     PROD = x*y;
     printf("PROD = %d\n", PROD);
+    
     return 0;
 }
