@@ -42,8 +42,10 @@ int main(){
             printf("%d-%d",pessoas[i],consumos[i]);
             moradoresTotal += pessoas[i];
         }
+
         printf("\n");
         printf("Consumo medio: %.2f m3.\n",consumoTotal/moradoresTotal);
+        
         cityNum++;
         scanf("%d",&housesNum);
         if(housesNum != 0){
